@@ -2,7 +2,7 @@ import { analyzeSentiment as analyzeLocal } from "./sentimentAnalyzer.js";
 
 const HF_API_URL =
   "https://router.huggingface.co/hf-inference/models/cardiffnlp/twitter-roberta-base-sentiment-latest";
-
+  
 export const getSentiment = async (text) => {
   try {
     const res = await fetch(HF_API_URL, {

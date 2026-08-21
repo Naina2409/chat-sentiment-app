@@ -3,8 +3,8 @@ import api from "../api/axios";
 import { getSocket } from "../socket/socket";
 import { useAuth } from "../context/AuthContext.jsx";
 import { useToast } from "../context/ToastContext.jsx";
-import Avatar from "./Avatar.jsx";
-import InsightsPanel from "./InsightsPanel.jsx";
+import Avatar from "./avatar.jsx";
+import InsightsPanel from "./insightsPanel.jsx";
 
 const sentimentDot = {
   positive: "bg-signal-positive",

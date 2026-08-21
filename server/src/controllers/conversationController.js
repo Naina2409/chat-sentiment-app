@@ -1,4 +1,4 @@
-import Conversation from "../models/Conversation.js";
+import Conversation from "../models/conversation.js";
 
 // @route  POST /api/conversations
 // @desc   Get existing conversation with a user, or create a new one

@@ -1,5 +1,5 @@
 import Avatar from "./Avatar.jsx";
-import SentimentSparkline from "./SentimentSparkline.jsx";
+import SentimentSparkline from "./sentimentSparkline.jsx";
 
 function InsightsPanel({ otherUser, messages, onClose }) {
   const counts = { positive: 0, negative: 0, neutral: 0 };

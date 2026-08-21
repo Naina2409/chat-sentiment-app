@@ -1,5 +1,5 @@
-import Message from "../models/Message.js";
-import Conversation from "../models/Conversation.js";
+import Message from "../models/message.js";
+import Conversation from "../models/conversation.js";
 import { getSentiment } from "../utils/sentimentService.js";
 
 export const registerChatHandlers = (io, socket) => {
