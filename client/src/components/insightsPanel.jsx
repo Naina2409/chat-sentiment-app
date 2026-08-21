@@ -1,4 +1,4 @@
-import Avatar from "./Avatar.jsx";
+import Avatar from "./avatar.jsx";
 import SentimentSparkline from "./sentimentSparkline.jsx";
 
 function InsightsPanel({ otherUser, messages, onClose }) {
